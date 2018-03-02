@@ -149,6 +149,8 @@ int _tmain(int argc, _TCHAR* argv[])
 		fp=fopen(filepath,"r");
 		if(fp)
 		{
+			memset(buf,0,sizeof(buf));
+			memset(buf2,0,sizeof(buf2));
 			fread(buf,1,sizeof(buf),fp);
 			if(0==replace_str(buf,txtA,txtB,buf2))
 			{
