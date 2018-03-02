@@ -1,0 +1,7 @@
+<style type="text/css">
+	.st0{fill:#95CACA;}
+	.st1{fill:#EF78A9;}
+	.st2{fill:#FEE89D;}
+	.st3{opacity:0.3;fill:#FFFFFF;}
+	.st4{opacity:0.1;fill:#FFFFFF;}
+</style>
