@@ -151,7 +151,8 @@ int _tmain(int argc, _TCHAR* argv[])
 		{
 			memset(buf,0,sizeof(buf));
 			memset(buf2,0,sizeof(buf2));
-			fread(buf,1,sizeof(buf),fp);
+			int flen=fread(buf,1,sizeof(buf),fp);
+			buf[flen]=0x00;
 			if(0==replace_str(buf,txtA,txtB,buf2))
 			{
 				printf("a.txt”Îb.txtƒ⁄»›ÃÊªª ß∞‹\n\n\n",i);
